@@ -8,10 +8,10 @@ from kivy.uix.screenmanager import Screen, ScreenManager
 
 import helperbee
 
-APP_NAME = "testapp"
+APP_NAME = "BEE-testapp"
 
 
-Builder.load_file(helperbee.HelperBEE.get_path() + APP_NAME + "/testapp.kv")
+Builder.load_file(helperbee.HelperBEE.get_app_path() + APP_NAME + "/testapp.kv")
 Config.set('graphics', 'width', '480')
 Config.set('graphics', 'height', '800')
 
